@@ -82,8 +82,8 @@
 	  In order to be able to bind to a privileged port 
 	  without running the erlang VM as root, the support 
 	  for using file descriptors has been improved. 
-	  It is now possible to add to the config (option fd) when 
-	  calling the 
+	  It is now possible to add the file descriptor to the config 
+	  (option fd) when calling the 
 	  <seealso marker="inets#start2">inets:start(httpd, ...)</seealso> 
 	  function. </p>
 	  <p>Attila Rajmund Nohl</p>
